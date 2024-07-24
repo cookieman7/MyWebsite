@@ -58,3 +58,24 @@ button {
 button:hover {
     background-color: #555;
 }
+.note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.note button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.note button:hover {
+    background-color: #ff1a1a;
+}
